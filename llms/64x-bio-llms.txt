@@ -1,0 +1,57 @@
+# 64x Bio
+
+> 64x Bio is a bioengineering company in Brisbane, California, founded in 2018 by scientists out of
+> Harvard Medical School and the Wyss Institute. Its VectorSelect platform pairs barcoded,
+> genome-scale pooled screens with computational mining of CellMap — a proprietary atlas linking
+> genetic and metabolic pathway data to production phenotypes — to engineer high-yield producer cell
+> lines for cell and gene therapy manufacturing.
+
+## What 64x Bio sells
+
+- AAV APEX Suite: high-yield adeno-associated virus production across serotypes and scales.
+- LV APEX Suite: lentiviral vector production for CAR-T and other cell therapy programs.
+- Biologics Suite: antibodies and next-generation protein therapeutics. In development.
+
+Engagement is through licensing and partnership agreements — exclusive or non-exclusive cell line
+licensing, custom cell line development, and biologics optimization — arranged with business
+development at bd@64xbio.com. There is no self-serve purchase path and no published price list.
+
+## API surface
+
+64x Bio publishes no API. As of 2026-09-05 there is no developer portal, no API reference, no
+OpenAPI, AsyncAPI, GraphQL SDL, Postman collection, MCP server, agent card, SDK or client package
+anywhere on its public surface. This was established by probing, not assumed:
+
+- api., app., docs., developer., portal., data., platform. and status..64xbio.com all NXDOMAIN.
+- /openapi.json, /openapi.yaml, /swagger.json, /api-docs, /api, /docs, /redoc, /graphql and
+  /asyncapi.yaml return 404 on both 64xbio.com and www.64xbio.com.
+- Every /.well-known/ path probed (security.txt, openid-configuration, oauth-authorization-server,
+  oauth-protected-resource, api-catalog, ai-plugin.json, agent-card.json, agent.json) returns 404.
+- github.com/64xbio exists as an organization but publishes zero public repositories.
+- No package named for 64x Bio exists on npm or PyPI.
+
+CellMap and the screening stack are internal research infrastructure operated by 64x Bio, not a
+product an outside developer can call. Do not construct or infer an endpoint for this company.
+
+## Links
+
+- Website: https://64xbio.com/
+- Platform (VectorSelect, CellMap): https://64xbio.com/platform
+- Product overview: https://64xbio.com/productoverview
+- AAV APEX Suite: https://64xbio.com/aavapexsuite
+- LV APEX Suite: https://64xbio.com/lvapexsuite
+- Company: https://64xbio.com/company
+- Licensing & Partnerships: https://64xbio.com/licensing-partnerships
+- News: https://64xbio.com/news
+- Terms of Use: https://64xbio.com/terms-of-use
+- Privacy Policy: https://64xbio.com/privacy-policy
+- GitHub organization (empty): https://github.com/64xbio
+- LinkedIn: https://www.linkedin.com/company/64xbio
+- General enquiries: info@64xbio.com
+- Business development: bd@64xbio.com
+
+## Provenance
+
+Generated 2026-09-05 by the API Evangelist enrichment pipeline from 64x Bio's own public website and
+live probes of its hosts. 64x Bio does not publish an llms.txt of its own; https://64xbio.com/llms.txt
+returned 404. This file is a third-party profile, not a document served by 64x Bio.

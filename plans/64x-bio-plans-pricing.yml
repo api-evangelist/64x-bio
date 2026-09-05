@@ -1,0 +1,35 @@
+generated: '2026-09-05'
+method: searched
+source: https://64xbio.com/licensing-partnerships
+docs: https://64xbio.com/licensing-partnerships
+plan_count: 0
+note: >-
+  64x Bio publishes no pricing page and no plans of any kind. /pricing and /plans both return 404 on
+  64xbio.com; the only commercial page is Licensing & Partnerships, which describes a bespoke
+  licensing and partnership motion for the AAV APEX Suite and LV APEX Suite and routes every enquiry
+  to bd@64xbio.com. There is no self-serve tier, no published rate card, and no quota or usage
+  metering to record, because the products are wet-lab cell-line engineering services rather than a
+  metered software service.
+model: licensing-and-partnership
+models:
+- name: Cell Line Licensing
+  note: >-
+    "We license our cell lines exclusively and non-exclusively." No fee schedule published.
+- name: Custom Cell Line Development
+  note: >-
+    Bespoke VectorSelect optimization starting from the partner's existing cell line or one of
+    64x Bio's. No fee schedule published.
+- name: Biologics Optimization
+  note: >-
+    VectorSelect applied to other biologics, "tailoring both genetic and process parameters."
+    No fee schedule published.
+self_serve: false
+contact: bd@64xbio.com
+plans: []
+evidence:
+- url: https://64xbio.com/pricing
+  status: 404
+- url: https://64xbio.com/plans
+  status: 404
+- url: https://64xbio.com/licensing-partnerships
+  status: 200

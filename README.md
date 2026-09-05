@@ -64,5 +64,19 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-64x Bio is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.nasdaqprivatemarket.com/
+64x Bio is a bioengineering company in Brisbane, California, founded in 2018 by scientists out of Harvard
+Medical School and the Wyss Institute. Its VectorSelect platform pairs barcoded, genome-scale pooled screens
+with computational mining of CellMap — a proprietary atlas linking genetic and metabolic pathway data to
+production phenotypes — to engineer high-yield producer cell lines for cell and gene therapy manufacturing.
+Products are the AAV APEX Suite, the LV APEX Suite, and a Biologics Suite in development, sold through
+exclusive and non-exclusive licensing and custom development partnerships.
+
+**64x Bio publishes no API.** As of 2026-09-05 this profile records an honest zero: no developer portal, no
+API reference, no OpenAPI/AsyncAPI/GraphQL contract, no SDK, no MCP server and no agent card were found. No
+developer subdomain resolves, every spec path and every `/.well-known/` path returns a true 404 (confirmed
+against a control probe), the `64xbio` GitHub organization publishes zero public repositories, and no package
+exists on npm or PyPI. See `x-coverage` in `apis.yml` for the probed evidence.
+
+- https://64xbio.com/
+- https://64xbio.com/platform
+- https://64xbio.com/licensing-partnerships

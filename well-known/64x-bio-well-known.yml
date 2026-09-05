@@ -1,0 +1,49 @@
+generated: '2026-09-05'
+method: probed
+source: >-
+  Anonymous HTTPS probes of /.well-known/* on every host this record knows. 64x Bio has no API
+  baseURL, no OpenAPI servers[] host and no docs/console host, so the registrable domain and its
+  www alias are the complete host set. Every path returned 404. No WellKnown or SecurityTxt
+  pointer is wired in apis.yml, because this file records an absence, not a served surface.
+note: >-
+  The 64xbio.com origin (Webflow) answers /.well-known/* with an 88-byte HTML body reading
+  "Invalid .well-known request" under a real 404 status. A control probe of a nonsense path
+  (/zzz-does-not-exist-64x-control) also returned 404, confirming the origin does not soft-200,
+  so these are true absences rather than a catch-all masking a served document.
+hosts:
+- host: 64xbio.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+- host: www.64xbio.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
