@@ -64,19 +64,89 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-64x Bio is a bioengineering company in Brisbane, California, founded in 2018 by scientists out of Harvard
-Medical School and the Wyss Institute. Its VectorSelect platform pairs barcoded, genome-scale pooled screens
-with computational mining of CellMap — a proprietary atlas linking genetic and metabolic pathway data to
-production phenotypes — to engineer high-yield producer cell lines for cell and gene therapy manufacturing.
-Products are the AAV APEX Suite, the LV APEX Suite, and a Biologics Suite in development, sold through
-exclusive and non-exclusive licensing and custom development partnerships.
+64x Bio is a bioengineering company in Brisbane, California, founded in 2018 by scientists out of Harvard Medical School and the Wyss Institute to rebuild the manufacturing foundation for cell and gene therapies. Its VectorSelect platform pairs massively parallelized, barcoded genome-scale pooled screens with computational mining of CellMap, a proprietary atlas linking genetic and metabolic pathway data to production phenotypes, to engineer high-yield producer cell lines. Commercial products are the AAV APEX Suite for adeno-associated virus production across serotypes and scales, the LV APEX Suite for lentiviral vectors used in CAR-T programs, and a Biologics Suite for antibodies and protein therapeutics still in development. The business is delivered through licensing and partnership agreements with therapeutics developers and manufacturers rather than as software: CellMap and the screening stack are internal research infrastructure, and 64x Bio publishes no developer program, public API, SDK or machine-readable contract of any kind.
 
-**64x Bio publishes no API.** As of 2026-09-05 this profile records an honest zero: no developer portal, no
-API reference, no OpenAPI/AsyncAPI/GraphQL contract, no SDK, no MCP server and no agent card were found. No
-developer subdomain resolves, every spec path and every `/.well-known/` path returns a true 404 (confirmed
-against a control probe), the `64xbio` GitHub organization publishes zero public repositories, and no package
-exists on npm or PyPI. See `x-coverage` in `apis.yml` for the probed evidence.
+**Areas:** Company · Biotechnology · Synthetic Biology · Gene Therapy · Cell and Gene Therapy · Biomanufacturing · Cell Line Engineering · Life Sciences
 
-- https://64xbio.com/
-- https://64xbio.com/platform
-- https://64xbio.com/licensing-partnerships
+## 64x Bio on APIs.io
+
+Everything profiled for 64x Bio is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/64x-bio/](https://apis.io/providers/64x-bio/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [64X Bio Domain Security](https://apis.io/security/64x-bio/64x-bio-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [64X Bio Plans Pricing](https://apis.io/plans/64x-bio/64x-bio-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://64xbio.com/)
+- [Blog](https://64xbio.com/news)
+- [Terms of service](https://64xbio.com/terms-of-use)
+- [Privacy policy](https://64xbio.com/privacy-policy)
+- [GitHub](https://github.com/64xbio)
+
+## API Evangelist rating
+
+**Kin Score 10.4** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.9** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/64x-bio/](https://apis.io/providers/64x-bio/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for 64x Bio: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/64x-bio/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
